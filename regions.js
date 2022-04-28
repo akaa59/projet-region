@@ -7,7 +7,7 @@ const displayData = (regionsData) => {
   ${regionsData
     .map(
       (region) =>
-        `<li class='card'><img class='img-card'src=assets/img/${region.code}.jpg><div class='text-card-container'><p>${region.nom}</p><a href='/regions/page/${region.nom}.html' class='see-more'>Voir plus</a></div></li>`
+        `<li class='card'><img class='img-card'src=assets/img/${region.code}.jpg><div class='text-card-container'><p>${region.nom}</p><a href='/regions/page/${region.code}.html' class='see-more'>Voir plus</a></div></li>`
     )
     .join("")}
   </ul>`;
