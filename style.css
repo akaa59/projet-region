@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  background-color: #94d2bd;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-shadow: 5px 5px 4px gray;
+}
+
+#btn {
+  height: 3rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.red {
+  background-color: red;
+}
+
+.card-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/*c'est pour gérer l'affichage des cartes des regions*/
+.card {
+  height: 30rem;
+  width: 20rem;
+  background-color: cadetblue;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .img-card {
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.text-card-container {
+  display: flex;
+  column-gap: 4rem;
+  /* justify-content: space-around; */
+  margin-bottom: 2rem;
+  font-size: large;
+  padding: 0 0.5rem;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.contenu {
+  margin: 1% 0%;
+  display: flex;
+  gap: 3rem;
+}
+.contenu p{
+  width: 30vw;
+  line-height: 2rem;
+  align-self: center;
+  background-color: cadetblue;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.contenu img{
+  width: 40vw;
+  height: 30vw;
+  align-self: center;
+  border-radius: 10%;
+}
+
+.retour {
+background-color: cadetblue;
+padding: 1%;
+border-radius: 50px;
+}
+
+.retour :hover {
+  color: #275546;
+}
